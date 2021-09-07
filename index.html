@@ -5,16 +5,24 @@
         <meta property="og:image" content="https://hentai-video.netlify.app/img/hentai.png" />
         <meta property="og:title" content="Hentai Video">
     </head>
-    <body>
-        <div class="bg"></div>
-        
-        <h1>Please make sure you are over 18 years old to visit this website.</h1>
-        <div class='buttons'>
-            <button type="button" onclick="show_hide()">Yes, I am over 18</button>
-            <button type="button" onclick="show_hide2()">No, I am under 18</button>
+    
+    
+    <body onload="myFunction()" style="margin:0;">
+        <div id="myDiv">
+
+            <div class="bg"></div>
+
+            <h1>Please make sure you are over 18 years old to visit this website.</h1>
+            <div class='buttons'>
+                <button type="button" onclick="show_hide()">Yes, I am over 18</button>
+                <button type="button" onclick="show_hide2()">No, I am under 18</button>
+            </div>
+
         </div>
         
     </body>
+
+    <div id="loader"></div>
     <img id="image" src='img/bonk.png'>
     <img id="image2" src="img/honest.png">
 </html>
